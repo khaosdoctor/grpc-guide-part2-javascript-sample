@@ -1,5 +1,5 @@
 {
-  "name": "grpc",
+  "name": "blog-grpc",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@grpc/grpc-js": "^1.3.0",
-    "@grpc/proto-loader": "^0.6.1"
+    "@grpc/proto-loader": "^0.6.1",
+    "grpc": "^1.24.7"
   },
   "devDependencies": {
     "google-protobuf": "^3.15.8",
