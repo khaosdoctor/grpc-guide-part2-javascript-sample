@@ -6,8 +6,8 @@ const protoObject = protoLoader.loadSync(path.resolve(__dirname, '../proto/notes
 const NotesDefinition = grpc.loadPackageDefinition(protoObject)
 
 const notes = [
-  { id: '1', title: 'Note 1', description: 'Content 1' },
-  { id: '2', title: 'Note 2', description: 'Content 2' }
+  { id: 1, title: 'Note 1', description: 'Content 1' },
+  { id: 2, title: 'Note 2', description: 'Content 2' }
 ]
 
 function List (_, callback) {

@@ -12,7 +12,7 @@ client.list({}, (err, notes) => {
   console.log(notes)
 })
 
-client.find({ id: '2' }, (err, { note }) => {
+client.find({ id: 2 }, (err, { note }) => {
   if (err) return console.error(err.details)
   return console.log(note)
 })
