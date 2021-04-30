@@ -1,7 +1,7 @@
 const { NoteFindRequest } = require('../proto/notes_pb.js')
 const { NoteServiceClient } = require('../proto/notes_grpc_web_pb.js')
 
-const client = new NoteServiceClient('http://71baf782be78.ngrok.io')
+const client = new NoteServiceClient('http://localhost:50051')
 const request = new NoteFindRequest()
 request.setId('2')
 
